@@ -1,0 +1,22 @@
+# Dependências do Projeto.
+
+fastapi==0.115.0
+
+# Gerenciador do servidor.
+uvicorn==0.30.6
+
+# Criação de modelos e estrutura do banco de dados.
+sqlalchemy==2.0.36
+
+# Alembic é o padrão para migrações com SQLAlchemy
+alembic==1.13.3
+
+# Permite a Criptografia das senhas em nosso projeto.
+passlib[bcrypt]==1.7.4
+
+# Permite a criação de tokens JWT (Jason Web Token)
+python-jose[cryptography]==3.3.0
+python-multipart==0.0.12
+
+# Gerencia as variáveis de ambiente
+python-dotenv==1.0.1
