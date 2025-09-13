@@ -10,4 +10,5 @@ async def list():
     """
     return {"mensagem": "Você acessou a rota list"}
 
-# Criamos um roteador e especificamos o caminho dominio/list para rotas de listagem.
+# Criamos um roteador e especificamos o caminho dominio/list para
+# rotas de listagem.
