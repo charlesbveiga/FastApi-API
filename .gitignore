@@ -1,0 +1,24 @@
+# Arquivos de cache do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Cache do ambiente virtual
+venv/
+
+# Arquivos temporários
+*.log
+*.tmp
+*.swp
+
+# Configurações do editor/IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
